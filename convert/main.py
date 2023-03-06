@@ -2,7 +2,7 @@
 
 while True:
     
-    op1=int(input("escolha uma opcao:\n[1]binario/decimal\n[2]hexadecimal/decimal\n[3]decimal/binario\n[4]decimal/hexadecimal\n:"))  
+    op1=int(input("escolha uma opcao:\n[1]binario/decimal\n[2]hexadecimal/decimal\n[3]decimal/binario\n[4]decimal/hexadecimal\n[5]binario/hexadecimal\n[6]hexadecimal/binario\n:"))  
     
     if op1==1:
         binario=input("digite o numero binario a ser convertido: ")
