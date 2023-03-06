@@ -1,4 +1,5 @@
 #vini.cost
+
 while True:
     
     op1=int(input("escolha uma opcao:\n[1]binario/decimal\n[2]hexadecimal/decimal\n[3]decimal/binario\n[4]decimal/hexadecimal\n:"))  
@@ -22,6 +23,18 @@ while True:
         decimal=int(input("digite um numero decimal para ser convertido para hexadecimal: "))
         hexa=format(decimal,'x')
         print("o numero decimal: {} em hexadecimal e: {}".format(decimal,hexa))
+
+    if op1==5:
+        binario=input("digite o numero binario a ser convertido: ")
+        decimal=int(binario,2)
+        hexa=format(decimal,'x')
+        print("o numero binario: {} em hexadecimal e: {}".format(binario,hexa))
+        
+    if op1==6:
+        hexa=input("digite o numero hexadecimal a ser convertido: ") 
+        decimal=int(hexa,16)
+        binario=format(decimal,'b')
+        print("o numero hexadecimal: {} em binario e: {}".format(hexa,binario))
         
     else:print("opcao invalida")
     
